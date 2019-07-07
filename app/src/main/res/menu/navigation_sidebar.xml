@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single" android:menuCategory="">
+        <item android:id="@+id/home"
+        android:title="메인"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/colorPrimaryDark"/>
+
+        <item android:id="@+id/booking"
+            android:title="예약"
+            android:icon="@drawable/ic_booking"
+            android:iconTint="@color/colorPrimaryDark"/>
+
+        <item android:id="@+id/msg"
+            android:title="메시지"
+            android:icon="@drawable/ic_msg" />
+    </group>
+</menu>
